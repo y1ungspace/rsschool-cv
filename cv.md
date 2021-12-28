@@ -18,13 +18,9 @@ function multiply(a, b){
   return a * b
 }
 ```
-##Education##
+## Education ##
 secondary education
-##Languges##
+## Languges ##
 - English:B2
 - Russian: native
 - French: B2
-
-
-
-
