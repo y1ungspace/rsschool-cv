@@ -1,1 +1,103 @@
-css is cool too
+html {
+    scroll-behavior: smooth; 
+  }
+* {
+    box-sizing: border-box;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.header{
+    background: #cfa392;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 50px;
+    list-style: none;
+  }
+.nav-link{
+    font-size: 14px;
+    color: #fff
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin: 5%;
+    background: #fdd8c9;
+}
+
+.section {
+    width: 50%;
+  }
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.footer{
+    display: flex;
+}
+a{
+    color: #fff;
+    font-weight: bold;
+}
+a:hover{
+    color:#61a04e
+}
+a:link{
+    text-decoration: none!important;
+  }
+.section-title{
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.img{
+    width: 180px;
+    height: 180px;
+    background-image: url("./assets/c21b7085d11ea59836f7b253503c234e.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.code{
+    background: #cbcbce;
+    border-radius: 7px;
+}
+.footer-list{
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0px 0px 0px
+}
+.github-link{
+    color: #000000;
+}
+.contacts-link{
+    list-style: none;
+}
+.item{
+    margin: 0px 20px;;
+}
+
